@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdint.h>
 #include <time.h>
 
@@ -7,7 +8,8 @@
  * DEFINITIONS
  **/
 
-#define MAX_PRIMES 1000
+#define MAX_PRIMES 100000
+#define TARGET_PRIME 99900000000
 #define PRINTED_NEW_LINE puts("____________");
 
 enum
