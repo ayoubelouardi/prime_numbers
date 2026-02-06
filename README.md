@@ -23,4 +23,4 @@ use the `build` bash script. and run the executable.
 - v0.0.1
     - time: 3.01s
     - compute and print: 1000 prime.
-<details>
+</details>
