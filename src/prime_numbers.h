@@ -8,6 +8,7 @@
  **/
 
 #define MAX_PRIMES 1000
+#define PRINTED_NEW_LINE puts("____________");
 
 enum
 {

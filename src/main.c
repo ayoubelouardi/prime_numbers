@@ -6,13 +6,18 @@
 int main(void)
 {
         ui64 i;
+        ui64 primes[MAX_PRIMES + 1];
 
         clock_t start = clock();
 
+        for (i = 0; i <= MAX_PRIMES; i++)
+        {
+		primes[i] = nth(i);
+        }
 
         for (i = 0; i <= MAX_PRIMES; i++)
         {
-                printf("> %4ld - %8ld \n", i, nth(i));
+                printf("> %4ld - %8ld \n", i, primes[i]);
         }
 
         clock_t end = clock();
