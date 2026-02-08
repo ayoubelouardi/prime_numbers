@@ -27,6 +27,6 @@ typedef uint64_t ui64;
 
 
 ui64 nth(ui64 n);
-ui64 is_prime(ui64 p);
+ui64 is_prime(ui64 p, ui64 *primes, ui64 count);
 
 

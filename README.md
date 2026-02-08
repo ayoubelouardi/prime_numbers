@@ -14,12 +14,12 @@ use the `build` bash script. and run the executable.
 
 ## CHANGELOG
 <details>
-- v0.0.2
+- v0.0.3
     - compute and print: 100000 prime.
     - op: using malloc to saving the stack from overflowing.
     - op: removing the nth() function entirly. and only using
         searching untile we reach the MAX_PRIMES.
-    - time: 0.8s
+    - time: 0.2s
     
 - v0.0.2
     - op: seperation between computer and printing.
